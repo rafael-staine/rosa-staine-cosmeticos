@@ -32,8 +32,9 @@
 }
 
 .topo nav a:is(:hover, :focus) {
-    color: #361f64;
-    border-bottom: 2px solid #361f64;
+    background-color: #361f64;
+    color: #fff;
+    border-radius: 4px;
 }
 
 /* Responsividade */

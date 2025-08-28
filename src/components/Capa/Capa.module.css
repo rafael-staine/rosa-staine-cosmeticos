@@ -38,7 +38,7 @@
 
 .texto h2 {
     font-size: 36px;
-    color: #c58611;
+    color: #361f64;
     font-weight: 400;
     margin-bottom: 10px;
     font-family: 'Libre Baskerville', serif;
@@ -46,11 +46,10 @@
 
 .texto h1 {
     font-size: 65px;
-    /* color: #d4af37; */
     color: #000;
     margin: 0;
     font-weight: 700;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair', serif;
 }
 
 /* Responsividade */

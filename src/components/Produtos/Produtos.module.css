@@ -1,6 +1,7 @@
 .produtos {
-    margin: 20px;
-
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 20px;
 }
 
 .titulos {
@@ -12,7 +13,7 @@
 .titulos h2 {
     font-size: 3.5rem;
     margin-bottom: 25px;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair', serif;
     font-weight: 500;
     color: #000;
 }
@@ -24,8 +25,10 @@
 }
 
 .perfume_img {
-    display: flex;
+    display: grid;
     grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+    margin: 50px 0px;
 }
 
 .card_perfume picture {
@@ -41,7 +44,7 @@
     transition: 0.3s ease-in-out;
 }
 
-.card_perdfume {
+.card_perfume {
     position: relative;
     padding: 20px 15px;
     display: flex;
@@ -55,8 +58,8 @@
 }
 
 .card_perfume:hover {
-    border: 1px solid #d4af37;
-    box-shadow: 0 10px 20px rgba(133, 133, 133);
+    border: 1px solid #361f64;
+    box-shadow: 0 10px 20px rgba(140, 0, 255, 0.1);
 }
 
 .card_perfume h3 {
@@ -70,15 +73,15 @@
     font-weight: bold;
     font-size: 1.3rem;
     margin-top: 20px;
-    color: #d4af37;
+    color: #674b9b;
 }
 
 .card_perfume .botao {
     margin-top: 15px;
     background: #000;
-    color: #d4af37;
+    color: #fff;
     padding: 12px 25px;
-    border: 2px solid #d4af37;
+    border: 2px solid #361f64;
     border-radius: 30px;
     cursor: pointer;
     font-size: 1rem;
@@ -86,17 +89,16 @@
     transition: all 0.3s ease;
 }
 
-.card_perfume .botao:hover  {
-    background: #d4af37;
+.card_perfume .botao:hover{
+    background: #674b9b;
     color: #000;
-    border-color: #000;
+    border: 2px solid #000;
     transform: scale(1.05);
 }
 
-.card_perfume:hover {
-    transform: slace(1.1);
+.card_perfume picture img:hover {
+    transform: scale(1.1);
 }
-
 .card_perfume .selo,
 .card_perfume .seloNovo {
     position: absolute;
@@ -109,8 +111,8 @@
 }
 
 .card_perfume .selo {
-    background: #d4af37;
-    color: #000;
+    background: #674b9b;
+    color: #fff;
 }
 
 .card_perfume .seloNovo {
