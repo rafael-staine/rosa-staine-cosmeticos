@@ -1,12 +1,14 @@
-import estilos from "./Contato.module.css";
+import estilos from './Contato.module.css';
 
 export default function Contato() {
     return (
-        <section className={estilos.contato}>
-            <div className={estilos.center}>
+        <section id={estilos.contato}>
+            <div className={estilos.contato}>
                 <h2>Fale Conosco</h2>
                 <p>
-                    Não perca tempo, venha conhecer uma de nossas lojas ou entre em contato através das nossas redes sociais ou da central de atendimento.
+                    Não perca tempo, venha conhecer uma de nossas lojas ou entre
+                    em contato através das nossas redes sociais ou da central de
+                    atendimento.
                 </p>
 
                 <div className={estilos.central_redes}>
@@ -15,54 +17,47 @@ export default function Contato() {
                         <ul>
                             <li>
                                 <picture>
-                                    <img src="./facebook.png" alt="localização" />
+                                    <img src="./local.png" alt="localização" />
                                 </picture>
                                 Caraguatatuba - SP
                             </li>
 
                             <li>
                                 <picture>
-                                    <img src="./facebook.png" alt="telefone" />
+                                    <img src="./telefone.png" alt="telefone" />
                                 </picture>
-                                (12) 98133-4324
+                                (12) 89133-4324
                             </li>
 
                             <li>
                                 <picture>
-                                    <img src="./facebook.png" alt="email" />
+                                    <img src="./email.png" />
                                 </picture>
-                                stainecosmeticos@gmail.com
+                                stainecosmeticos@email.com
                             </li>
                         </ul>
                     </div>
 
                     <div className={estilos.bloco_contato}>
-                        <h4>Redes Sociais</h4>
+                        <h4>Redes sociais</h4>
                         <ul>
                             <li>
                                 <picture>
-                                    <img src="./facebook.png" alt="Instagram" />
+                                    <img src="./face.png" />
+                                </picture>
+                                /staine_cosmeticos
+                            </li>
+
+                            <li>
+                                <picture>
+                                    <img src="./insta.png" alt="telefone" />
                                 </picture>
                                 @staine_cosmeticos
                             </li>
 
                             <li>
                                 <picture>
-                                    <img src="./facebook.png" alt="Facebook" />
-                                </picture>
-                                @staine_cosmeticos
-                            </li>
-
-                            <li>
-                                <picture>
-                                    <img src="./facebook.png" alt="Tik Tok" />
-                                </picture>
-                                @staine_cosmeticos
-                            </li>
-
-                            <li>
-                                <picture>
-                                    <img src="./facebook.png" alt="X" />
+                                    <img src="./twitter.png" />
                                 </picture>
                                 @staine_cosmeticos
                             </li>
@@ -71,5 +66,5 @@ export default function Contato() {
                 </div>
             </div>
         </section>
-    )
+    );
 }

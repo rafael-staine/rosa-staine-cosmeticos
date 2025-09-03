@@ -5,7 +5,7 @@
 }
 
 #sobre {
-    background-color: #674b9b48;
+    background-color: #5900ff48;
     padding: 100px 0px;
 }
 
@@ -78,18 +78,18 @@
 
 /* Responsividade */
 @media (max-width: 992px) {
-    .sobre_elemento h4 {
+    .sobre_elementos h4 {
         font-size: 1.5rem;
     }
 
-    .sobre_elemento p {
+    .sobre_elementos p {
         font-size: 1rem;
     }
 }
 
 @media (max-width: 768px) {
     #sobre {
-        padding: 2rem;
+        padding: 60px 0px;
     }
 
     .sobre h2 {

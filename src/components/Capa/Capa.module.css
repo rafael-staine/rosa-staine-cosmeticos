@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap');
 
 .secao_capa {
-    background-image: url('../../../public/banner.png');
+    background-image: url('../../../public/banner-2.png');
     height: 90vh;
     background-size: cover;
     background-position: center right;
@@ -12,6 +12,7 @@
     font-family: 'Libre Baskerville', serif;
     position: relative;
     overflow: hidden;
+    height: 100vh;
 }
 
 .texto {
@@ -30,6 +31,7 @@
         opacity: 0;
         transform: translateY(40px);
     }
+
     100% {
         opacity: 1;
         transform: translateY(0);
@@ -54,6 +56,11 @@
 
 /* Responsividade */
 @media (max-width: 768px) {
+
+    .secao_capa {
+        background-position: center center;
+    }
+
     .texto {
         align-items: center;
         text-align: center;
@@ -69,10 +76,16 @@
 }
 
 @media (max-width: 480px) {
+
+    .secao_capa {
+        background-position: center center;
+        background-size: cover;
+    }
+
     .texto h2 {
         font-size: 20px;
     }
-    
+
     .texto h1 {
         font-size: 32px;
     }
