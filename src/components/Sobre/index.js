@@ -9,7 +9,7 @@ export default function Sobre() {
 
                 <div className={estilos.elementos_sobre}>
                     <picture>
-                        <img src='./banner.png' alt='Nossa loja' />
+                        <img src='./filiais.png' alt='Nossa loja' />
                     </picture>
 
                     <div className={estilos.sobre_elemento}>
@@ -23,7 +23,7 @@ export default function Sobre() {
                     </div>
 
                     <picture>
-                        <img src='./banner.png' alt='Nossa loja' />
+                        <img src='./equipe.png' alt='Nossa loja' />
                     </picture>
                 </div>
             </div>

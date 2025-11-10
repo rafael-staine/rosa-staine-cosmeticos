@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap');
 
 .secao_capa {
-    background-image: url('../../../public/banner-2.png');
+    background-image: url('../../../public/banner-3.png');
     height: 90vh;
     background-size: cover;
     background-position: center right;
@@ -40,7 +40,7 @@
 
 .texto h2 {
     font-size: 36px;
-    color: #361f64;
+    color: #c9a8ff;
     font-weight: 400;
     margin-bottom: 10px;
     font-family: 'Libre Baskerville', serif;
@@ -48,7 +48,7 @@
 
 .texto h1 {
     font-size: 65px;
-    color: #000;
+    color: #fff;
     margin: 0;
     font-weight: 700;
     font-family: 'Playfair', serif;
